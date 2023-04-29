@@ -1,0 +1,46 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: #000000;
+}
+
+#root{
+    width: 100%;
+    height: 100%;
+}
+
+h1{
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+}
+
+.Detail__content{
+    width: 100%;;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.Detail__title{
+    width: 100%;
+    background: purple;
+    display: flex;
+    justify-content: center;
+}
+
+.Detail__discription{
+    width: 80%;
+    background: purple;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.Detail__info{
+    width:30%;
+    background: purple;
+    border-radius: 15px;
+    text-align: center;
+}
